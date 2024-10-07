@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 2rem 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#about {
+    background: #f4f4f4;
+    text-align: center;
+}
+
+#about p {
+    margin: 1rem 0;
+}
+
+#skills {
+    text-align: center;
+}
+
+.skills-list {
+    list-style: none;
+    display: inline-flex;
+    gap: 1rem;
+}
+
+#projects {
+    background: #f4f4f4;
+    text-align: center;
+}
+
+.project-grid {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.project-card {
+    background: #fff;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    width: 200px;
+    text-align: center;
+}
+
+#contact {
+    text-align: center;
+}
+
+.contact-btn {
+    background: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
